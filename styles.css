@@ -17,6 +17,11 @@ header {
   background-color: var(--bgDark);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
 }
+header logo{
+border-radius: 50%; /* Makes the image round */
+width: 200px; /* Adjust the width and height as needed */
+height: 200px;
+}
 header nav .left a {
   color: var(--white);
   text-decoration: none;
